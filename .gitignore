@@ -1,0 +1,28 @@
+# node_modules is huge, never push this
+node_modules/
+
+# build output
+dist/
+dist-ssr/
+
+# secret keys - DO NOT push to GitHub
+.env
+.env.local
+.env.production
+
+# vite cache
+.vite/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS files (not needed)
+.DS_Store
+Thumbs.db
+
+# editor stuff
+.vscode/*
+.idea/
+*.suo
+*.sw?
