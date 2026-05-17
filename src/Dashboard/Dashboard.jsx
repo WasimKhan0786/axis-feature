@@ -11,7 +11,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-import "./dashboard.css";
+import "./Dashboard.css";
 
 
 const COLORS = ["#52c41a","#e90e12d3", "#cf7713", "#510d9e"];
